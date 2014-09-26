@@ -1,0 +1,53 @@
+//-----------------------------------------------------
+// FORMIN
+//-----------------------------------------------------
+#formin{
+	width: 100%;float: left;
+
+	fieldset{
+		width: 100%;float: left;
+	}
+
+	.grid-1,.grid-2,.grid-3,
+	.grid-4,.grid-5,.grid-6,
+	.grid-7,.grid-8,.grid-9,
+	.grid-10{
+		float: left;margin: 0 1% 1% 0;
+		border: 1px solid #ccc;padding: 1.2% 0.3% 1.2% 0.3%;
+		.radius(10px);
+
+		select{
+			width: 96%;padding: 0 2%;
+			float: left;
+		}
+
+		input[type=text], input[type=password]{
+			width: 96%;
+			float: left;
+			padding: 1% 2%;
+		}
+	} // grid-n
+
+	.grid-1{width: 8%;}
+	.grid-2{width: 18%;}
+	.grid-3{width: 28%;}
+	.grid-4{width: 38%;}
+	.grid-5{width: 48%;}
+	.grid-6{width: 58%;}
+	.grid-7{width: 68%;}
+	.grid-8{width: 78%;}
+	.grid-9{width: 88%;}
+	.grid-10{width: 98%;}
+
+	.divCol{
+		width:100%;float: left;margin-bottom: 20px;
+	}
+
+	.separador{
+		width:100%;float: left;
+	}
+	
+}
+//-----------------------------------------------------
+// FORMIN
+//-----------------------------------------------------
